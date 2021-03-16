@@ -754,6 +754,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		403D878326007FE80073B0E0 /* 动态规划.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "动态规划.md"; sourceTree = "<group>"; };
 		404817F925E381800077B626 /* 13.RomanToInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 13.RomanToInt; sourceTree = BUILT_PRODUCTS_DIR; };
 		404817FB25E381800077B626 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4048180425E3ABE90077B626 /* 14.LongestCommonPrefix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 14.LongestCommonPrefix; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2135,6 +2136,7 @@
 			isa = PBXGroup;
 			children = (
 				40F3753325F0D88100298716 /* String.md */,
+				403D878326007FE80073B0E0 /* 动态规划.md */,
 			);
 			path = "算法归纳";
 			sourceTree = "<group>";
