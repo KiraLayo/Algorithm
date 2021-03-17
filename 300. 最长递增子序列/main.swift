@@ -42,22 +42,21 @@ import Foundation
 
 class Solution {
     func lengthOfLIS(_ nums: [Int]) -> Int {
-        if nums.count == 0 {
-            return 0;
-        }
+//        状态转移：
+//        dp[i] = max(dp[i - 1,...] 或 dp[i - 1,...] + 1)
         var dp:[Int] = [Int](repeating: 1, count: nums.count);
-        var length = 1;
+        var res = 1;
         
         for i in 0..<nums.count {
             for j in 0..<i {
-                if(nums[j] < nums[i]) {
+                if nums[i] > nums[j] {
                     dp[i] = max(dp[i], dp[j] + 1);
                 }
             }
-            length = max(length, dp[i]);
+            res = max(res, dp[i]);
         }
-                
-        return length;
+        
+        return res;
     }
 }
 
