@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		40373E672602F68400C5959D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40373E662602F68400C5959D /* main.swift */; };
+		403A1BAD2611CDCE0084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BAC2611CDCE0084A6A8 /* main.swift */; };
+		403A1BB82611D21F0084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BB72611D21F0084A6A8 /* main.swift */; };
+		403A1BC32611E6C40084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BC22611E6C40084A6A8 /* main.swift */; };
 		404817FC25E381800077B626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404817FB25E381800077B626 /* main.swift */; };
 		4048180725E3ABEA0077B626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048180625E3ABEA0077B626 /* main.swift */; };
 		4048181225E3C7960077B626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048181125E3C7960077B626 /* main.swift */; };
@@ -92,6 +95,33 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		40373E622602F68400C5959D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		403A1BA82611CDCE0084A6A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		403A1BB32611D21F0084A6A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		403A1BBE2611E6C40084A6A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -816,6 +846,12 @@
 /* Begin PBXFileReference section */
 		40373E642602F68400C5959D /* 354. 俄罗斯套娃信封问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "354. 俄罗斯套娃信封问题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40373E662602F68400C5959D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		403A1BAA2611CDCE0084A6A8 /* 198. 打家劫舍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "198. 打家劫舍"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A1BAC2611CDCE0084A6A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		403A1BB52611D21F0084A6A8 /* 213. 打家劫舍 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "213. 打家劫舍 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A1BB72611D21F0084A6A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "740. 删除与获得点数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A1BC22611E6C40084A6A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		403D878326007FE80073B0E0 /* 动态规划.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "动态规划.md"; sourceTree = "<group>"; };
 		404817F925E381800077B626 /* 13.RomanToInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 13.RomanToInt; sourceTree = BUILT_PRODUCTS_DIR; };
 		404817FB25E381800077B626 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -983,6 +1019,27 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		40373E612602F68400C5959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A1BA72611CDCE0084A6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A1BB22611D21F0084A6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A1BBD2611E6C40084A6A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1560,6 +1617,30 @@
 			path = "354. 俄罗斯套娃信封问题";
 			sourceTree = "<group>";
 		};
+		403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */ = {
+			isa = PBXGroup;
+			children = (
+				403A1BAC2611CDCE0084A6A8 /* main.swift */,
+			);
+			path = "198. 打家劫舍";
+			sourceTree = "<group>";
+		};
+		403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */ = {
+			isa = PBXGroup;
+			children = (
+				403A1BB72611D21F0084A6A8 /* main.swift */,
+			);
+			path = "213. 打家劫舍 II";
+			sourceTree = "<group>";
+		};
+		403A1BC12611E6C40084A6A8 /* 740. 删除与获得点数 */ = {
+			isa = PBXGroup;
+			children = (
+				403A1BC22611E6C40084A6A8 /* main.swift */,
+			);
+			path = "740. 删除与获得点数";
+			sourceTree = "<group>";
+		};
 		404817E225E3813C0077B626 = {
 			isa = PBXGroup;
 			children = (
@@ -1644,6 +1725,9 @@
 				40943E2726032CFC007EE537 /* 152. 乘积最大子数组 */,
 				40943E32260331BB007EE537 /* 918. 环形子数组的最大和 */,
 				40943E3D260356DB007EE537 /* 面试题 17.24. 最大子矩阵 */,
+				403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */,
+				403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */,
+				403A1BC12611E6C40084A6A8 /* 740. 删除与获得点数 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -1733,6 +1817,9 @@
 				40943E2626032CFC007EE537 /* 152. 乘积最大子数组 */,
 				40943E31260331BB007EE537 /* 918. 环形子数组的最大和 */,
 				40943E3C260356DB007EE537 /* 面试题 17.24. 最大子矩阵 */,
+				403A1BAA2611CDCE0084A6A8 /* 198. 打家劫舍 */,
+				403A1BB52611D21F0084A6A8 /* 213. 打家劫舍 II */,
+				403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2415,6 +2502,57 @@
 			name = "354. 俄罗斯套娃信封问题";
 			productName = "354. 俄罗斯套娃信封问题";
 			productReference = 40373E642602F68400C5959D /* 354. 俄罗斯套娃信封问题 */;
+			productType = "com.apple.product-type.tool";
+		};
+		403A1BA92611CDCE0084A6A8 /* 198. 打家劫舍 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A1BB02611CDCF0084A6A8 /* Build configuration list for PBXNativeTarget "198. 打家劫舍" */;
+			buildPhases = (
+				403A1BA62611CDCE0084A6A8 /* Sources */,
+				403A1BA72611CDCE0084A6A8 /* Frameworks */,
+				403A1BA82611CDCE0084A6A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "198. 打家劫舍";
+			productName = "198. 打家劫舍";
+			productReference = 403A1BAA2611CDCE0084A6A8 /* 198. 打家劫舍 */;
+			productType = "com.apple.product-type.tool";
+		};
+		403A1BB42611D21F0084A6A8 /* 213. 打家劫舍 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A1BB92611D21F0084A6A8 /* Build configuration list for PBXNativeTarget "213. 打家劫舍 II" */;
+			buildPhases = (
+				403A1BB12611D21F0084A6A8 /* Sources */,
+				403A1BB22611D21F0084A6A8 /* Frameworks */,
+				403A1BB32611D21F0084A6A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "213. 打家劫舍 II";
+			productName = "213. 打家劫舍 II";
+			productReference = 403A1BB52611D21F0084A6A8 /* 213. 打家劫舍 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		403A1BBF2611E6C40084A6A8 /* 740. 删除与获得点数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A1BC42611E6C40084A6A8 /* Build configuration list for PBXNativeTarget "740. 删除与获得点数" */;
+			buildPhases = (
+				403A1BBC2611E6C40084A6A8 /* Sources */,
+				403A1BBD2611E6C40084A6A8 /* Frameworks */,
+				403A1BBE2611E6C40084A6A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "740. 删除与获得点数";
+			productName = "740. 删除与获得点数";
+			productReference = 403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */;
 			productType = "com.apple.product-type.tool";
 		};
 		404817F825E381800077B626 /* 13.RomanToInt */ = {
@@ -3791,6 +3929,15 @@
 					40373E632602F68400C5959D = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					403A1BA92611CDCE0084A6A8 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					403A1BB42611D21F0084A6A8 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					403A1BBF2611E6C40084A6A8 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					404817F825E381800077B626 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -4127,6 +4274,9 @@
 				40943E2526032CFC007EE537 /* 152. 乘积最大子数组 */,
 				40943E30260331BB007EE537 /* 918. 环形子数组的最大和 */,
 				40943E3B260356DB007EE537 /* 面试题 17.24. 最大子矩阵 */,
+				403A1BA92611CDCE0084A6A8 /* 198. 打家劫舍 */,
+				403A1BB42611D21F0084A6A8 /* 213. 打家劫舍 II */,
+				403A1BBF2611E6C40084A6A8 /* 740. 删除与获得点数 */,
 			);
 		};
 /* End PBXProject section */
@@ -4147,6 +4297,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				40373E672602F68400C5959D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A1BA62611CDCE0084A6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A1BAD2611CDCE0084A6A8 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A1BB12611D21F0084A6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A1BB82611D21F0084A6A8 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A1BBC2611E6C40084A6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A1BC32611E6C40084A6A8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4813,6 +4987,60 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		403A1BAE2611CDCE0084A6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		403A1BAF2611CDCE0084A6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		403A1BBA2611D21F0084A6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		403A1BBB2611D21F0084A6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		403A1BC52611E6C40084A6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		403A1BC62611E6C40084A6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -6876,6 +7104,33 @@
 			buildConfigurations = (
 				40373E682602F68400C5959D /* Debug */,
 				40373E692602F68400C5959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A1BB02611CDCF0084A6A8 /* Build configuration list for PBXNativeTarget "198. 打家劫舍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A1BAE2611CDCE0084A6A8 /* Debug */,
+				403A1BAF2611CDCE0084A6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A1BB92611D21F0084A6A8 /* Build configuration list for PBXNativeTarget "213. 打家劫舍 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A1BBA2611D21F0084A6A8 /* Debug */,
+				403A1BBB2611D21F0084A6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A1BC42611E6C40084A6A8 /* Build configuration list for PBXNativeTarget "740. 删除与获得点数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A1BC52611E6C40084A6A8 /* Debug */,
+				403A1BC62611E6C40084A6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
