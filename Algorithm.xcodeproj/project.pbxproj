@@ -11,6 +11,7 @@
 		403A1BAD2611CDCE0084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BAC2611CDCE0084A6A8 /* main.swift */; };
 		403A1BB82611D21F0084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BB72611D21F0084A6A8 /* main.swift */; };
 		403A1BC32611E6C40084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BC22611E6C40084A6A8 /* main.swift */; };
+		4046BE8826147E280065A523 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BE8726147E280065A523 /* main.swift */; };
 		404817FC25E381800077B626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404817FB25E381800077B626 /* main.swift */; };
 		4048180725E3ABEA0077B626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048180625E3ABEA0077B626 /* main.swift */; };
 		4048181225E3C7960077B626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048181125E3C7960077B626 /* main.swift */; };
@@ -122,6 +123,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		403A1BBE2611E6C40084A6A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4046BE8326147E280065A523 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -853,6 +863,8 @@
 		403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "740. 删除与获得点数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		403A1BC22611E6C40084A6A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		403D878326007FE80073B0E0 /* 动态规划.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "动态规划.md"; sourceTree = "<group>"; };
+		4046BE8526147E280065A523 /* 873. 最长的斐波那契子序列的长度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "873. 最长的斐波那契子序列的长度"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4046BE8726147E280065A523 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		404817F925E381800077B626 /* 13.RomanToInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 13.RomanToInt; sourceTree = BUILT_PRODUCTS_DIR; };
 		404817FB25E381800077B626 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4048180425E3ABE90077B626 /* 14.LongestCommonPrefix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 14.LongestCommonPrefix; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1040,6 +1052,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		403A1BBD2611E6C40084A6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4046BE8226147E280065A523 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1641,6 +1660,14 @@
 			path = "740. 删除与获得点数";
 			sourceTree = "<group>";
 		};
+		4046BE8626147E280065A523 /* 873. 最长的斐波那契子序列的长度 */ = {
+			isa = PBXGroup;
+			children = (
+				4046BE8726147E280065A523 /* main.swift */,
+			);
+			path = "873. 最长的斐波那契子序列的长度";
+			sourceTree = "<group>";
+		};
 		404817E225E3813C0077B626 = {
 			isa = PBXGroup;
 			children = (
@@ -1728,6 +1755,7 @@
 				403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */,
 				403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				403A1BC12611E6C40084A6A8 /* 740. 删除与获得点数 */,
+				4046BE8626147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -1820,6 +1848,7 @@
 				403A1BAA2611CDCE0084A6A8 /* 198. 打家劫舍 */,
 				403A1BB52611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */,
+				4046BE8526147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2553,6 +2582,23 @@
 			name = "740. 删除与获得点数";
 			productName = "740. 删除与获得点数";
 			productReference = 403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4046BE8426147E280065A523 /* 873. 最长的斐波那契子序列的长度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4046BE8B26147E280065A523 /* Build configuration list for PBXNativeTarget "873. 最长的斐波那契子序列的长度" */;
+			buildPhases = (
+				4046BE8126147E280065A523 /* Sources */,
+				4046BE8226147E280065A523 /* Frameworks */,
+				4046BE8326147E280065A523 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "873. 最长的斐波那契子序列的长度";
+			productName = "873. 最长的斐波那契子序列的长度";
+			productReference = 4046BE8526147E280065A523 /* 873. 最长的斐波那契子序列的长度 */;
 			productType = "com.apple.product-type.tool";
 		};
 		404817F825E381800077B626 /* 13.RomanToInt */ = {
@@ -3938,6 +3984,9 @@
 					403A1BBF2611E6C40084A6A8 = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					4046BE8426147E280065A523 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					404817F825E381800077B626 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -4277,6 +4326,7 @@
 				403A1BA92611CDCE0084A6A8 /* 198. 打家劫舍 */,
 				403A1BB42611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				403A1BBF2611E6C40084A6A8 /* 740. 删除与获得点数 */,
+				4046BE8426147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
 			);
 		};
 /* End PBXProject section */
@@ -4321,6 +4371,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				403A1BC32611E6C40084A6A8 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4046BE8126147E280065A523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4046BE8826147E280065A523 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5037,6 +5095,24 @@
 			name = Debug;
 		};
 		403A1BC62611E6C40084A6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4046BE8926147E280065A523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4046BE8A26147E280065A523 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -7131,6 +7207,15 @@
 			buildConfigurations = (
 				403A1BC52611E6C40084A6A8 /* Debug */,
 				403A1BC62611E6C40084A6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4046BE8B26147E280065A523 /* Build configuration list for PBXNativeTarget "873. 最长的斐波那契子序列的长度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4046BE8926147E280065A523 /* Debug */,
+				4046BE8A26147E280065A523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
