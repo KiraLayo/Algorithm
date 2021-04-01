@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402240BA2615D099005D2373 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402240B92615D099005D2373 /* main.swift */; };
 		40373E672602F68400C5959D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40373E662602F68400C5959D /* main.swift */; };
 		403A1BAD2611CDCE0084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BAC2611CDCE0084A6A8 /* main.swift */; };
 		403A1BB82611D21F0084A6A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A1BB72611D21F0084A6A8 /* main.swift */; };
@@ -95,6 +96,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		402240B52615D099005D2373 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		40373E622602F68400C5959D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -854,6 +864,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		402240B72615D099005D2373 /* 1027. 最长等差数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1027. 最长等差数列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402240B92615D099005D2373 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40373E642602F68400C5959D /* 354. 俄罗斯套娃信封问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "354. 俄罗斯套娃信封问题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40373E662602F68400C5959D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		403A1BAA2611CDCE0084A6A8 /* 198. 打家劫舍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "198. 打家劫舍"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1030,6 +1042,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		402240B42615D099005D2373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40373E612602F68400C5959D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1628,6 +1647,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402240B82615D099005D2373 /* 1027. 最长等差数列 */ = {
+			isa = PBXGroup;
+			children = (
+				402240B92615D099005D2373 /* main.swift */,
+			);
+			path = "1027. 最长等差数列";
+			sourceTree = "<group>";
+		};
 		40373E652602F68400C5959D /* 354. 俄罗斯套娃信封问题 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1756,6 +1783,7 @@
 				403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				403A1BC12611E6C40084A6A8 /* 740. 删除与获得点数 */,
 				4046BE8626147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
+				402240B82615D099005D2373 /* 1027. 最长等差数列 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -1849,6 +1877,7 @@
 				403A1BB52611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */,
 				4046BE8526147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
+				402240B72615D099005D2373 /* 1027. 最长等差数列 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2516,6 +2545,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		402240B62615D099005D2373 /* 1027. 最长等差数列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402240BD2615D099005D2373 /* Build configuration list for PBXNativeTarget "1027. 最长等差数列" */;
+			buildPhases = (
+				402240B32615D099005D2373 /* Sources */,
+				402240B42615D099005D2373 /* Frameworks */,
+				402240B52615D099005D2373 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1027. 最长等差数列";
+			productName = "1027. 最长等差数列";
+			productReference = 402240B72615D099005D2373 /* 1027. 最长等差数列 */;
+			productType = "com.apple.product-type.tool";
+		};
 		40373E632602F68400C5959D /* 354. 俄罗斯套娃信封问题 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40373E6A2602F68400C5959D /* Build configuration list for PBXNativeTarget "354. 俄罗斯套娃信封问题" */;
@@ -3972,6 +4018,9 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = KiraLayo;
 				TargetAttributes = {
+					402240B62615D099005D2373 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					40373E632602F68400C5959D = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -4327,6 +4376,7 @@
 				403A1BB42611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				403A1BBF2611E6C40084A6A8 /* 740. 删除与获得点数 */,
 				4046BE8426147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
+				402240B62615D099005D2373 /* 1027. 最长等差数列 */,
 			);
 		};
 /* End PBXProject section */
@@ -4342,6 +4392,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		402240B32615D099005D2373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402240BA2615D099005D2373 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40373E602602F68400C5959D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5025,6 +5083,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		402240BB2615D099005D2373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		402240BC2615D099005D2373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		40373E682602F68400C5959D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7175,6 +7251,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		402240BD2615D099005D2373 /* Build configuration list for PBXNativeTarget "1027. 最长等差数列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402240BB2615D099005D2373 /* Debug */,
+				402240BC2615D099005D2373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		40373E6A2602F68400C5959D /* Build configuration list for PBXNativeTarget "354. 俄罗斯套娃信封问题" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
