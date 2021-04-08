@@ -77,6 +77,10 @@
 		40DA117E25F8B7F500986350 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA117D25F8B7F500986350 /* main.swift */; };
 		40DA118925F8BB0900986350 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA118825F8BB0900986350 /* main.swift */; };
 		40DA119425F8BF4B00986350 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA119325F8BF4B00986350 /* main.swift */; };
+		40DA37E0261C0E8A00FD82A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA37DF261C0E8A00FD82A6 /* main.swift */; };
+		40DA37EB261C341800FD82A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA37EA261C341800FD82A6 /* main.swift */; };
+		40DA37F6261C40D200FD82A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA37F5261C40D200FD82A6 /* main.swift */; };
+		40E1822A261EE41200BD99B3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E18229261EE41200BD99B3 /* main.swift */; };
 		40EC719F25EC9C9C0012DB13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EC719E25EC9C9C0012DB13 /* main.swift */; };
 		40EC71AA25ECCF1B0012DB13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EC71A925ECCF1B0012DB13 /* main.swift */; };
 		40EC71B525ECD48D0012DB13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EC71B425ECD48D0012DB13 /* main.swift */; };
@@ -717,6 +721,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		40DA37DB261C0E8A00FD82A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		40DA37E6261C341800FD82A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		40DA37F1261C40D200FD82A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		40E18225261EE41200BD99B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		40EC719A25EC9C9B0012DB13 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1006,6 +1046,14 @@
 		40DA118825F8BB0900986350 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40DA119125F8BF4B00986350 /* 面试题 01.02. 判定是否互为字符重排 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面试题 01.02. 判定是否互为字符重排"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DA119325F8BF4B00986350 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		40DA37DD261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "303. 区域和检索 - 数组不可变"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DA37DF261C0E8A00FD82A6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		40DA37E8261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "304. 二维区域和检索 - 矩阵不可变"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DA37EA261C341800FD82A6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		40DA37F3261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "325. 和等于 k 的最长子数组长度"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DA37F5261C40D200FD82A6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		40E18227261EE41200BD99B3 /* 525. 连续数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "525. 连续数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E18229261EE41200BD99B3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40EC719C25EC9C9B0012DB13 /* 50.MyPow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 50.MyPow; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EC719E25EC9C9C0012DB13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40EC71A725ECCF1B0012DB13 /* 171.TitleToNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 171.TitleToNumber; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1532,6 +1580,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40DA37DA261C0E8A00FD82A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DA37E5261C341800FD82A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DA37F0261C40D200FD82A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E18224261EE41200BD99B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40EC719925EC9C9B0012DB13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1698,7 +1774,6 @@
 		404817E225E3813C0077B626 = {
 			isa = PBXGroup;
 			children = (
-				40F3753225F0D85900298716 /* 算法归纳 */,
 				40C2F96D25E89A160020DFA7 /* 1.TwoSum */,
 				40C2F9F125E8A0E90020DFA7 /* 2.AddTwoNumbers */,
 				40C2F9FC25E8A16D0020DFA7 /* 3.LengthOfLongestSubstring */,
@@ -1710,11 +1785,17 @@
 				40C2FA0725E8A1D70020DFA7 /* 21.MergeTwoLists */,
 				40B0A7EC25E8CB33007EFF10 /* 24.SwapPairs */,
 				404E6F5B25E4B46800368798 /* 26.RemoveDuplicates */,
+				408A96AF25EF2D00001702BB /* 27.RemoveElement */,
 				404E6F6625E4BBE200368798 /* 28.StrStr */,
 				40B0A82E25E8E667007EFF10 /* 31.NextPermutation */,
+				408A96BA25EF32E4001702BB /* 35.SearchInsert */,
 				40F9DF3B25E4F43800C6CA75 /* 38.CountAndSay */,
+				40EC719D25EC9C9C0012DB13 /* 50.MyPow */,
+				40AADF242601FAFD00BF5287 /* 53. 最大子序和 */,
 				40C2FA1D25E8A2750020DFA7 /* 53.MaxSubArray */,
+				408A96C525EF5EB0001702BB /* 58.LengthOfLastWord */,
 				40F9DF4625E5055D00C6CA75 /* 66.PlusOne */,
+				40F3752125F0B23300298716 /* 67.AddBinary */,
 				40C2F9A425E89CAA0020DFA7 /* 69.MySqrt */,
 				40C2F9AF25E89CE80020DFA7 /* 70.ClimbStairs */,
 				40C2F9BA25E89D3B0020DFA7 /* 83.DeleteDuplicates */,
@@ -1730,60 +1811,59 @@
 				40F9DF5C25E5142500C6CA75 /* 125.IsPalindrome */,
 				40C2F96225E8998E0020DFA7 /* 136.SingleNumber */,
 				40C2FA3325E8A3BA0020DFA7 /* 141.HasCycle */,
+				40943E2726032CFC007EE537 /* 152. 乘积最大子数组 */,
 				40B0A80225E8DCD0007EFF10 /* 152.MaxProduct */,
 				40C2FA3F25E8AB920020DFA7 /* 155.MinStack */,
 				4081934625E90A2D0020C84C /* 160.GetIntersectionNode */,
 				4081936725E90AF00020C84C /* 169.MajorityElement */,
-				4081933B25E909B80020C84C /* 191.HammingWeight */,
-				40B0A84425E8F65B007EFF10 /* 206.ReverseList */,
-				40B0A83925E8EFD2007EFF10 /* 226.InvertTree */,
-				4081932525E9093C0020C84C /* 237.DeleteNode */,
-				40B0A7E125E8C883007EFF10 /* 344.ReverseString */,
-				40B0A81825E8E532007EFF10 /* 461.HammingDistance */,
-				40B0A80D25E8E35C007EFF10 /* 617.MergeTrees */,
-				4081937225E90B1F0020C84C /* 665.CheckPossibility */,
-				40C2F9D025E89DB70020DFA7 /* 739.DailyTemperatures */,
-				4048181025E3C7960077B626 /* 766.IsToeplitzMatrix */,
-				40B4042825E7BC710038D4AB /* 867.Transpose */,
-				404E6F5025E49DF600368798 /* 1052.MaxSatisfied */,
-				4081935125E90A800020C84C /* 1480.RunningSum */,
-				40EC719D25EC9C9C0012DB13 /* 50.MyPow */,
 				40EC71A825ECCF1B0012DB13 /* 171.TitleToNumber */,
 				40EC71B325ECD48D0012DB13 /* 172.TrailingZeroes */,
 				40EC71BE25ECEBF00012DB13 /* 190.ReverseBits */,
+				4081933B25E909B80020C84C /* 191.HammingWeight */,
+				403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */,
 				40EC71C925ECF5CE0012DB13 /* 202.IsHappy */,
-				408A96AF25EF2D00001702BB /* 27.RemoveElement */,
-				408A96BA25EF32E4001702BB /* 35.SearchInsert */,
-				408A96C525EF5EB0001702BB /* 58.LengthOfLastWord */,
-				40F3752125F0B23300298716 /* 67.AddBinary */,
+				40B0A84425E8F65B007EFF10 /* 206.ReverseList */,
+				403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */,
+				40B0A83925E8EFD2007EFF10 /* 226.InvertTree */,
+				4081932525E9093C0020C84C /* 237.DeleteNode */,
+				89C29ED025FE6A69006049ED /* 300. 最长递增子序列 */,
+				40DA37DE261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */,
+				40DA37E9261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */,
+				40DA37F4261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */,
+				40B0A7E125E8C883007EFF10 /* 344.ReverseString */,
 				40F3752C25F0D06700298716 /* 345.ReverseVowels */,
+				40373E652602F68400C5959D /* 354. 俄罗斯套娃信封问题 */,
 				40F3753925F0DEE000298716 /* 383.CanConstruct */,
 				40F3754425F0E78700298716 /* 387.FirstUniqChar */,
 				40F3754F25F0EDFE00298716 /* 415.AddStrings */,
 				40F3755A25F0F6F300298716 /* 434.CountSegments */,
 				405F870925F75A5600B6CA2D /* 459.RepeatedSubstringPattern */,
+				40B0A81825E8E532007EFF10 /* 461.HammingDistance */,
 				405F871425F7804300B6CA2D /* 520.DetectCapitalUse */,
+				40E18228261EE41200BD99B3 /* 525. 连续数组 */,
 				40DA113A25F86E6E00986350 /* 557.ReverseWords */,
-				40DA114525F87BC300986350 /* 709.ToLowerCase */,
 				40DA115025F89E4600986350 /* 606.Tree2str */,
-				40DA115B25F8A65300986350 /* 1165.CalculateTime */,
-				40DA116625F8AB5E00986350 /* 804.UniqueMorseRepresentations */,
-				40DA117125F8B1EC00986350 /* 680.ValidPalindrome */,
-				40DA117C25F8B7F500986350 /* 剑指 Offer 58 - II. 左旋转字符串 */,
-				40DA118725F8BB0900986350 /* 面试题 01.06. 字符串压缩 */,
-				40DA119225F8BF4B00986350 /* 面试题 01.02. 判定是否互为字符重排 */,
-				89C29ED025FE6A69006049ED /* 300. 最长递增子序列 */,
-				40AADF242601FAFD00BF5287 /* 53. 最大子序和 */,
+				40B0A80D25E8E35C007EFF10 /* 617.MergeTrees */,
+				4081937225E90B1F0020C84C /* 665.CheckPossibility */,
 				40AADF2F2602057300BF5287 /* 673. 最长递增子序列的个数 */,
-				40373E652602F68400C5959D /* 354. 俄罗斯套娃信封问题 */,
-				40943E2726032CFC007EE537 /* 152. 乘积最大子数组 */,
-				40943E32260331BB007EE537 /* 918. 环形子数组的最大和 */,
-				40943E3D260356DB007EE537 /* 面试题 17.24. 最大子矩阵 */,
-				403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */,
-				403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */,
+				40DA117125F8B1EC00986350 /* 680.ValidPalindrome */,
+				40DA114525F87BC300986350 /* 709.ToLowerCase */,
+				40C2F9D025E89DB70020DFA7 /* 739.DailyTemperatures */,
 				403A1BC12611E6C40084A6A8 /* 740. 删除与获得点数 */,
+				4048181025E3C7960077B626 /* 766.IsToeplitzMatrix */,
+				40DA116625F8AB5E00986350 /* 804.UniqueMorseRepresentations */,
+				40B4042825E7BC710038D4AB /* 867.Transpose */,
 				4046BE8626147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
+				40943E32260331BB007EE537 /* 918. 环形子数组的最大和 */,
 				402240B82615D099005D2373 /* 1027. 最长等差数列 */,
+				404E6F5025E49DF600368798 /* 1052.MaxSatisfied */,
+				40DA115B25F8A65300986350 /* 1165.CalculateTime */,
+				4081935125E90A800020C84C /* 1480.RunningSum */,
+				40DA117C25F8B7F500986350 /* 剑指 Offer 58 - II. 左旋转字符串 */,
+				40DA119225F8BF4B00986350 /* 面试题 01.02. 判定是否互为字符重排 */,
+				40DA118725F8BB0900986350 /* 面试题 01.06. 字符串压缩 */,
+				40943E3D260356DB007EE537 /* 面试题 17.24. 最大子矩阵 */,
+				40F3753225F0D85900298716 /* 算法归纳 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -1878,6 +1958,10 @@
 				403A1BC02611E6C40084A6A8 /* 740. 删除与获得点数 */,
 				4046BE8526147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
 				402240B72615D099005D2373 /* 1027. 最长等差数列 */,
+				40DA37DD261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */,
+				40DA37E8261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */,
+				40DA37F3261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */,
+				40E18227261EE41200BD99B3 /* 525. 连续数组 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2393,6 +2477,38 @@
 				40DA119325F8BF4B00986350 /* main.swift */,
 			);
 			path = "面试题 01.02. 判定是否互为字符重排";
+			sourceTree = "<group>";
+		};
+		40DA37DE261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */ = {
+			isa = PBXGroup;
+			children = (
+				40DA37DF261C0E8A00FD82A6 /* main.swift */,
+			);
+			path = "303. 区域和检索 - 数组不可变";
+			sourceTree = "<group>";
+		};
+		40DA37E9261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */ = {
+			isa = PBXGroup;
+			children = (
+				40DA37EA261C341800FD82A6 /* main.swift */,
+			);
+			path = "304. 二维区域和检索 - 矩阵不可变";
+			sourceTree = "<group>";
+		};
+		40DA37F4261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */ = {
+			isa = PBXGroup;
+			children = (
+				40DA37F5261C40D200FD82A6 /* main.swift */,
+			);
+			path = "325. 和等于 k 的最长子数组长度";
+			sourceTree = "<group>";
+		};
+		40E18228261EE41200BD99B3 /* 525. 连续数组 */ = {
+			isa = PBXGroup;
+			children = (
+				40E18229261EE41200BD99B3 /* main.swift */,
+			);
+			path = "525. 连续数组";
 			sourceTree = "<group>";
 		};
 		40EC719D25EC9C9C0012DB13 /* 50.MyPow */ = {
@@ -3736,6 +3852,74 @@
 			productReference = 40DA119125F8BF4B00986350 /* 面试题 01.02. 判定是否互为字符重排 */;
 			productType = "com.apple.product-type.tool";
 		};
+		40DA37DC261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DA37E3261C0E8A00FD82A6 /* Build configuration list for PBXNativeTarget "303. 区域和检索 - 数组不可变" */;
+			buildPhases = (
+				40DA37D9261C0E8A00FD82A6 /* Sources */,
+				40DA37DA261C0E8A00FD82A6 /* Frameworks */,
+				40DA37DB261C0E8A00FD82A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "303. 区域和检索 - 数组不可变";
+			productName = "303. 区域和检索 - 数组不可变";
+			productReference = 40DA37DD261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */;
+			productType = "com.apple.product-type.tool";
+		};
+		40DA37E7261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DA37EC261C341800FD82A6 /* Build configuration list for PBXNativeTarget "304. 二维区域和检索 - 矩阵不可变" */;
+			buildPhases = (
+				40DA37E4261C341800FD82A6 /* Sources */,
+				40DA37E5261C341800FD82A6 /* Frameworks */,
+				40DA37E6261C341800FD82A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "304. 二维区域和检索 - 矩阵不可变";
+			productName = "304. 二维区域和检索 - 矩阵不可变";
+			productReference = 40DA37E8261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */;
+			productType = "com.apple.product-type.tool";
+		};
+		40DA37F2261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DA37F7261C40D200FD82A6 /* Build configuration list for PBXNativeTarget "325. 和等于 k 的最长子数组长度" */;
+			buildPhases = (
+				40DA37EF261C40D200FD82A6 /* Sources */,
+				40DA37F0261C40D200FD82A6 /* Frameworks */,
+				40DA37F1261C40D200FD82A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "325. 和等于 k 的最长子数组长度";
+			productName = "325. 和等于 k 的最长子数组长度";
+			productReference = 40DA37F3261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */;
+			productType = "com.apple.product-type.tool";
+		};
+		40E18226261EE41200BD99B3 /* 525. 连续数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1822D261EE41200BD99B3 /* Build configuration list for PBXNativeTarget "525. 连续数组" */;
+			buildPhases = (
+				40E18223261EE41200BD99B3 /* Sources */,
+				40E18224261EE41200BD99B3 /* Frameworks */,
+				40E18225261EE41200BD99B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "525. 连续数组";
+			productName = "525. 连续数组";
+			productReference = 40E18227261EE41200BD99B3 /* 525. 连续数组 */;
+			productType = "com.apple.product-type.tool";
+		};
 		40EC719B25EC9C9B0012DB13 /* 50.MyPow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40EC71A225EC9C9C0012DB13 /* Build configuration list for PBXNativeTarget "50.MyPow" */;
@@ -4228,6 +4412,18 @@
 					40DA119025F8BF4B00986350 = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					40DA37DC261C0E8A00FD82A6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					40DA37E7261C341800FD82A6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					40DA37F2261C40D200FD82A6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					40E18226261EE41200BD99B3 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					40EC719B25EC9C9B0012DB13 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -4377,6 +4573,10 @@
 				403A1BBF2611E6C40084A6A8 /* 740. 删除与获得点数 */,
 				4046BE8426147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
 				402240B62615D099005D2373 /* 1027. 最长等差数列 */,
+				40DA37DC261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */,
+				40DA37E7261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */,
+				40DA37F2261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */,
+				40E18226261EE41200BD99B3 /* 525. 连续数组 */,
 			);
 		};
 /* End PBXProject section */
@@ -4949,6 +5149,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				40DA119425F8BF4B00986350 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DA37D9261C0E8A00FD82A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DA37E0261C0E8A00FD82A6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DA37E4261C341800FD82A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DA37EB261C341800FD82A6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DA37EF261C40D200FD82A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DA37F6261C40D200FD82A6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E18223261EE41200BD99B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1822A261EE41200BD99B3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6862,6 +7094,78 @@
 			};
 			name = Release;
 		};
+		40DA37E1261C0E8A00FD82A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40DA37E2261C0E8A00FD82A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40DA37ED261C341800FD82A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40DA37EE261C341800FD82A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40DA37F8261C40D200FD82A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40DA37F9261C40D200FD82A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40E1822B261EE41200BD99B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40E1822C261EE41200BD99B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		40EC71A025EC9C9C0012DB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7886,6 +8190,42 @@
 			buildConfigurations = (
 				40DA119625F8BF4B00986350 /* Debug */,
 				40DA119725F8BF4B00986350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DA37E3261C0E8A00FD82A6 /* Build configuration list for PBXNativeTarget "303. 区域和检索 - 数组不可变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DA37E1261C0E8A00FD82A6 /* Debug */,
+				40DA37E2261C0E8A00FD82A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DA37EC261C341800FD82A6 /* Build configuration list for PBXNativeTarget "304. 二维区域和检索 - 矩阵不可变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DA37ED261C341800FD82A6 /* Debug */,
+				40DA37EE261C341800FD82A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DA37F7261C40D200FD82A6 /* Build configuration list for PBXNativeTarget "325. 和等于 k 的最长子数组长度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DA37F8261C40D200FD82A6 /* Debug */,
+				40DA37F9261C40D200FD82A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1822D261EE41200BD99B3 /* Build configuration list for PBXNativeTarget "525. 连续数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1822B261EE41200BD99B3 /* Debug */,
+				40E1822C261EE41200BD99B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
