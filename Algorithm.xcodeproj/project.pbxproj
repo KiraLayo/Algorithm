@@ -40,6 +40,8 @@
 		40943E3F260356DB007EE537 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40943E3E260356DB007EE537 /* main.swift */; };
 		40AADF262601FAFD00BF5287 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AADF252601FAFD00BF5287 /* main.swift */; };
 		40AADF312602057300BF5287 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AADF302602057300BF5287 /* main.swift */; };
+		40ACB73D26283A0100F9568B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACB73C26283A0100F9568B /* main.swift */; };
+		40ACB7482628482A00F9568B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACB7472628482A00F9568B /* main.swift */; };
 		40B0A7E325E8C883007EFF10 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0A7E225E8C883007EFF10 /* main.swift */; };
 		40B0A7EE25E8CB33007EFF10 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0A7ED25E8CB33007EFF10 /* main.swift */; };
 		40B0A7F925E8D782007EFF10 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0A7F825E8D782007EFF10 /* main.swift */; };
@@ -397,6 +399,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		40AADF2C2602057300BF5287 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		40ACB73826283A0100F9568B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		40ACB7432628482A00F9568B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1051,6 +1071,10 @@
 		40AADF252601FAFD00BF5287 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40AADF2E2602057300BF5287 /* 673. 最长递增子序列的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "673. 最长递增子序列的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AADF302602057300BF5287 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		40ACB73A26283A0100F9568B /* 排序.快速排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "排序.快速排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ACB73C26283A0100F9568B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		40ACB7452628482A00F9568B /* 排序.归并排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "排序.归并排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ACB7472628482A00F9568B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40B0A7E025E8C883007EFF10 /* 344.ReverseString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 344.ReverseString; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B0A7E225E8C883007EFF10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40B0A7EB25E8CB33007EFF10 /* 24.SwapPairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 24.SwapPairs; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1413,6 +1437,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		40AADF2B2602057300BF5287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ACB73726283A0100F9568B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ACB7422628482A00F9568B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2050,6 +2088,8 @@
 				403FBBE0262459F30089DE12 /* 排序.插入排序 */,
 				40FDEA212626DC1000772F8A /* 排序.希尔排序 */,
 				40FDEA2C2626F01B00772F8A /* 排序.堆排序 */,
+				40ACB73B26283A0100F9568B /* 排序.快速排序 */,
+				40ACB7462628482A00F9568B /* 排序.归并排序 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -2156,6 +2196,8 @@
 				403FBBDF262459F30089DE12 /* 排序.插入排序 */,
 				40FDEA202626DC1000772F8A /* 排序.希尔排序 */,
 				40FDEA2B2626F01A00772F8A /* 排序.堆排序 */,
+				40ACB73A26283A0100F9568B /* 排序.快速排序 */,
+				40ACB7452628482A00F9568B /* 排序.归并排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2350,6 +2392,22 @@
 				40AADF302602057300BF5287 /* main.swift */,
 			);
 			path = "673. 最长递增子序列的个数";
+			sourceTree = "<group>";
+		};
+		40ACB73B26283A0100F9568B /* 排序.快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				40ACB73C26283A0100F9568B /* main.swift */,
+			);
+			path = "排序.快速排序";
+			sourceTree = "<group>";
+		};
+		40ACB7462628482A00F9568B /* 排序.归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				40ACB7472628482A00F9568B /* main.swift */,
+			);
+			path = "排序.归并排序";
 			sourceTree = "<group>";
 		};
 		40B0A7E125E8C883007EFF10 /* 344.ReverseString */ = {
@@ -3456,6 +3514,40 @@
 			name = "673. 最长递增子序列的个数";
 			productName = "673. 最长递增子序列的个数";
 			productReference = 40AADF2E2602057300BF5287 /* 673. 最长递增子序列的个数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		40ACB73926283A0100F9568B /* 排序.快速排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40ACB74026283A0100F9568B /* Build configuration list for PBXNativeTarget "排序.快速排序" */;
+			buildPhases = (
+				40ACB73626283A0100F9568B /* Sources */,
+				40ACB73726283A0100F9568B /* Frameworks */,
+				40ACB73826283A0100F9568B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "排序.快速排序";
+			productName = "排序.快速排序";
+			productReference = 40ACB73A26283A0100F9568B /* 排序.快速排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		40ACB7442628482A00F9568B /* 排序.归并排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40ACB7492628482A00F9568B /* Build configuration list for PBXNativeTarget "排序.归并排序" */;
+			buildPhases = (
+				40ACB7412628482A00F9568B /* Sources */,
+				40ACB7422628482A00F9568B /* Frameworks */,
+				40ACB7432628482A00F9568B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "排序.归并排序";
+			productName = "排序.归并排序";
+			productReference = 40ACB7452628482A00F9568B /* 排序.归并排序 */;
 			productType = "com.apple.product-type.tool";
 		};
 		40B0A7DF25E8C883007EFF10 /* 344.ReverseString */ = {
@@ -4673,6 +4765,12 @@
 					40AADF2D2602057300BF5287 = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					40ACB73926283A0100F9568B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					40ACB7442628482A00F9568B = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					40B0A7DF25E8C883007EFF10 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -4981,6 +5079,8 @@
 				403FBBDE262459F30089DE12 /* 排序.插入排序 */,
 				40FDEA1F2626DC1000772F8A /* 排序.希尔排序 */,
 				40FDEA2A2626F01A00772F8A /* 排序.堆排序 */,
+				40ACB73926283A0100F9568B /* 排序.快速排序 */,
+				40ACB7442628482A00F9568B /* 排序.归并排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -5257,6 +5357,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				40AADF312602057300BF5287 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ACB73626283A0100F9568B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ACB73D26283A0100F9568B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ACB7412628482A00F9568B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ACB7482628482A00F9568B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6622,6 +6738,42 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40ACB73E26283A0100F9568B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40ACB73F26283A0100F9568B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40ACB74A2628482A00F9568B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40ACB74B2628482A00F9568B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -8469,6 +8621,24 @@
 			buildConfigurations = (
 				40AADF332602057300BF5287 /* Debug */,
 				40AADF342602057300BF5287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40ACB74026283A0100F9568B /* Build configuration list for PBXNativeTarget "排序.快速排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ACB73E26283A0100F9568B /* Debug */,
+				40ACB73F26283A0100F9568B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40ACB7492628482A00F9568B /* Build configuration list for PBXNativeTarget "排序.归并排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ACB74A2628482A00F9568B /* Debug */,
+				40ACB74B2628482A00F9568B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
