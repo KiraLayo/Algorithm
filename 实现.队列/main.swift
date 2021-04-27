@@ -11,7 +11,7 @@ import Foundation
 class Queue {
     var head = 0;
     var queue:[Int] = [];
-        
+    
     public func enQueue(val:Int) -> Bool {
         queue.append(val);
         return true;
@@ -28,17 +28,17 @@ class Queue {
     public func isEmpty()-> Bool {
         return head == queue.count;
     }
-
+    
     public func front() -> Int? {
-        guard isEmpty() else {
+        guard !isEmpty() else {
             return nil;
         }
-        
         return queue[head];
     }
 }
 
 let queue1 = Queue();
 print(queue1.front());
+queue1.enQueue(val: 3);
 queue1.enQueue(val: 1);
 print(queue1.front());
