@@ -112,6 +112,7 @@
 		40FDEA232626DC1000772F8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDEA222626DC1000772F8A /* main.swift */; };
 		40FDEA2E2626F01B00772F8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDEA2D2626F01B00772F8A /* main.swift */; };
 		89C29ED225FE6A69006049ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C29ED125FE6A69006049ED /* main.swift */; };
+		89FDE493264AF17E00143B37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDE492264AF17E00143B37 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1051,6 +1052,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		89FDE48E264AF17E00143B37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -1269,6 +1279,8 @@
 		40FDEA322626FEFA00772F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		89C29ECF25FE6A69006049ED /* 300. 最长递增子序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "300. 最长递增子序列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C29ED125FE6A69006049ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "110. 平衡二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FDE492264AF17E00143B37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2007,6 +2019,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89FDE48D264AF17E00143B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -2190,6 +2209,7 @@
 				40E35668263816DA00A90322 /* 622. 设计循环队列 */,
 				40E03581263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358C263AC5EE0042A1AB /* 实现.栈 */,
+				89FDE491264AF17E00143B37 /* 110. 平衡二叉树 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -2303,6 +2323,7 @@
 				40E35667263816DA00A90322 /* 622. 设计循环队列 */,
 				40E03580263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358B263AC5EE0042A1AB /* 实现.栈 */,
+				89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3085,6 +3106,14 @@
 				89C29ED125FE6A69006049ED /* main.swift */,
 			);
 			path = "300. 最长递增子序列";
+			sourceTree = "<group>";
+		};
+		89FDE491264AF17E00143B37 /* 110. 平衡二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				89FDE492264AF17E00143B37 /* main.swift */,
+			);
+			path = "110. 平衡二叉树";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4886,13 +4915,30 @@
 			productReference = 89C29ECF25FE6A69006049ED /* 300. 最长递增子序列 */;
 			productType = "com.apple.product-type.tool";
 		};
+		89FDE48F264AF17E00143B37 /* 110. 平衡二叉树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FDE494264AF17E00143B37 /* Build configuration list for PBXNativeTarget "110. 平衡二叉树" */;
+			buildPhases = (
+				89FDE48C264AF17E00143B37 /* Sources */,
+				89FDE48D264AF17E00143B37 /* Frameworks */,
+				89FDE48E264AF17E00143B37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "110. 平衡二叉树";
+			productName = "110. 平衡二叉树";
+			productReference = 89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		404817E325E3813D0077B626 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = KiraLayo;
 				TargetAttributes = {
@@ -5211,6 +5257,9 @@
 					89C29ECE25FE6A69006049ED = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					89FDE48F264AF17E00143B37 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = 404817E625E3813D0077B626 /* Build configuration list for PBXProject "Algorithm" */;
@@ -5331,6 +5380,7 @@
 				40E35666263816DA00A90322 /* 622. 设计循环队列 */,
 				40E0357F263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358A263AC5EE0042A1AB /* 实现.栈 */,
+				89FDE48F264AF17E00143B37 /* 110. 平衡二叉树 */,
 			);
 		};
 /* End PBXProject section */
@@ -6183,6 +6233,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C29ED225FE6A69006049ED /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FDE48C264AF17E00143B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FDE493264AF17E00143B37 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8696,6 +8754,28 @@
 			};
 			name = Release;
 		};
+		89FDE495264AF17E00143B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89FDE496264AF17E00143B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -9649,6 +9729,15 @@
 			buildConfigurations = (
 				89C29ED325FE6A69006049ED /* Debug */,
 				89C29ED425FE6A69006049ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FDE494264AF17E00143B37 /* Build configuration list for PBXNativeTarget "110. 平衡二叉树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FDE495264AF17E00143B37 /* Debug */,
+				89FDE496264AF17E00143B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
