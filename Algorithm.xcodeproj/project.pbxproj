@@ -111,6 +111,7 @@
 		40F9DF5E25E5142500C6CA75 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9DF5D25E5142500C6CA75 /* main.swift */; };
 		40FDEA232626DC1000772F8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDEA222626DC1000772F8A /* main.swift */; };
 		40FDEA2E2626F01B00772F8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDEA2D2626F01B00772F8A /* main.swift */; };
+		8931D755264D849200AFAD4C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931D754264D849200AFAD4C /* main.swift */; };
 		89C29ED225FE6A69006049ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C29ED125FE6A69006049ED /* main.swift */; };
 		89FDE493264AF17E00143B37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDE492264AF17E00143B37 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -1043,6 +1044,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8931D750264D849200AFAD4C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		89C29ECD25FE6A69006049ED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1277,6 +1287,8 @@
 		40FDEA2B2626F01A00772F8A /* 排序.堆排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "排序.堆排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FDEA2D2626F01B00772F8A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40FDEA322626FEFA00772F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8931D752264D849200AFAD4C /* 232. 用栈实现队列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "232. 用栈实现队列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8931D754264D849200AFAD4C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		89C29ECF25FE6A69006049ED /* 300. 最长递增子序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "300. 最长递增子序列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C29ED125FE6A69006049ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "110. 平衡二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2012,6 +2024,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8931D74F264D849200AFAD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C29ECC25FE6A69006049ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2210,6 +2229,7 @@
 				40E03581263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358C263AC5EE0042A1AB /* 实现.栈 */,
 				89FDE491264AF17E00143B37 /* 110. 平衡二叉树 */,
+				8931D753264D849200AFAD4C /* 232. 用栈实现队列 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -2324,6 +2344,7 @@
 				40E03580263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358B263AC5EE0042A1AB /* 实现.栈 */,
 				89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */,
+				8931D752264D849200AFAD4C /* 232. 用栈实现队列 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3098,6 +3119,14 @@
 				40FDEA322626FEFA00772F8A /* README.md */,
 			);
 			path = "排序.堆排序";
+			sourceTree = "<group>";
+		};
+		8931D753264D849200AFAD4C /* 232. 用栈实现队列 */ = {
+			isa = PBXGroup;
+			children = (
+				8931D754264D849200AFAD4C /* main.swift */,
+			);
+			path = "232. 用栈实现队列";
 			sourceTree = "<group>";
 		};
 		89C29ED025FE6A69006049ED /* 300. 最长递增子序列 */ = {
@@ -4898,6 +4927,23 @@
 			productReference = 40FDEA2B2626F01A00772F8A /* 排序.堆排序 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8931D751264D849200AFAD4C /* 232. 用栈实现队列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8931D758264D849200AFAD4C /* Build configuration list for PBXNativeTarget "232. 用栈实现队列" */;
+			buildPhases = (
+				8931D74E264D849200AFAD4C /* Sources */,
+				8931D74F264D849200AFAD4C /* Frameworks */,
+				8931D750264D849200AFAD4C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "232. 用栈实现队列";
+			productName = "232. 用栈实现队列";
+			productReference = 8931D752264D849200AFAD4C /* 232. 用栈实现队列 */;
+			productType = "com.apple.product-type.tool";
+		};
 		89C29ECE25FE6A69006049ED /* 300. 最长递增子序列 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89C29ED525FE6A69006049ED /* Build configuration list for PBXNativeTarget "300. 最长递增子序列" */;
@@ -4939,7 +4985,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = KiraLayo;
 				TargetAttributes = {
 					402240B62615D099005D2373 = {
@@ -5254,6 +5300,9 @@
 					40FDEA2A2626F01A00772F8A = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					8931D751264D849200AFAD4C = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					89C29ECE25FE6A69006049ED = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -5381,6 +5430,7 @@
 				40E0357F263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358A263AC5EE0042A1AB /* 实现.栈 */,
 				89FDE48F264AF17E00143B37 /* 110. 平衡二叉树 */,
+				8931D751264D849200AFAD4C /* 232. 用栈实现队列 */,
 			);
 		};
 /* End PBXProject section */
@@ -6225,6 +6275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				40FDEA2E2626F01B00772F8A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8931D74E264D849200AFAD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8931D755264D849200AFAD4C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8728,6 +8786,28 @@
 			};
 			name = Release;
 		};
+		8931D756264D849200AFAD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8931D757264D849200AFAD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		89C29ED325FE6A69006049ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9720,6 +9800,15 @@
 			buildConfigurations = (
 				40FDEA302626F01B00772F8A /* Debug */,
 				40FDEA312626F01B00772F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8931D758264D849200AFAD4C /* Build configuration list for PBXNativeTarget "232. 用栈实现队列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8931D756264D849200AFAD4C /* Debug */,
+				8931D757264D849200AFAD4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
