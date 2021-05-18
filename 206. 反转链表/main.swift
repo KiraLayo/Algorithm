@@ -59,6 +59,7 @@ class Solution {
         while current != nil  {
             let next = current!.next;
             current!.next = pre;
+            
             pre = current;
             current = next;
         }

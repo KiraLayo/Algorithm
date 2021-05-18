@@ -23,3 +23,74 @@
 import Foundation
 import ShareModule
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public var val: Int
+ *     public var next: ListNode?
+ *     public init() { self.val = 0; self.next = nil; }
+ *     public init(_ val: Int) { self.val = val; self.next = nil; }
+ *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+ * }
+ */
+class Solution {
+    func isPalindrome(_ head: ListNode?) -> Bool {
+        if head == nil {
+            return true;
+        }
+        
+        var secondPosition = reverseList(endOfFirstHalf(head!).next);
+        var firstPosition = head;
+        
+        while secondPosition != nil {
+            if secondPosition!.val != firstPosition!.val {
+                return false;
+            }
+            firstPosition = firstPosition?.next;
+            secondPosition = secondPosition?.next;
+        }
+
+        return true;
+    }
+    
+    func endOfFirstHalf(_ head:ListNode) -> ListNode {
+        var slowNode: ListNode? = head;
+        var fastNode: ListNode? = head;
+        while fastNode!.next != nil && fastNode!.next!.next != nil {
+            slowNode = slowNode?.next;
+            fastNode = fastNode?.next?.next;
+        }
+        return slowNode!;
+    }
+    
+    func reverseList(_ head: ListNode?) -> ListNode?{
+        guard head != nil else {
+            return nil;
+        }
+        
+        var current:ListNode? = head;
+        var pre: ListNode? = nil;
+        
+        while current != nil {
+            let next = current!.next;
+            current!.next = pre;
+            
+            pre = current;
+            current = next;
+        }
+        
+        return pre;
+    }
+    
+    func reverseList2(_ head: ListNode?) -> ListNode?{
+        guard  let h = head, let next = h.next else {
+            return head;
+        }
+    
+        let p = reverseList2(next);
+        next.next = h;
+        h.next = nil;
+        
+        return p;
+    }
+}
