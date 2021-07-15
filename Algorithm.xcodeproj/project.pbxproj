@@ -113,6 +113,11 @@
 		40FDEA2E2626F01B00772F8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDEA2D2626F01B00772F8A /* main.swift */; };
 		89C29ED225FE6A69006049ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C29ED125FE6A69006049ED /* main.swift */; };
 		89FDE493264AF17E00143B37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDE492264AF17E00143B37 /* main.swift */; };
+		9104C92D26A0101300F9491A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104C92C26A0101300F9491A /* main.swift */; };
+		9104C93826A0104200F9491A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104C93726A0104200F9491A /* main.swift */; };
+		9104C94326A0107B00F9491A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104C94226A0107B00F9491A /* main.swift */; };
+		9104C94E26A010A600F9491A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104C94D26A010A600F9491A /* main.swift */; };
+		9104C95926A0272400F9491A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104C95826A0272400F9491A /* main.swift */; };
 		910F712F265178F300120BE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F712E265178F300120BE2 /* main.swift */; };
 		910F713A26517F2B00120BE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F713926517F2B00120BE2 /* main.swift */; };
 		91EB5ED72664D76B00C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5ED62664D76B00C0A431 /* main.swift */; };
@@ -1066,6 +1071,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9104C92826A0101200F9491A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9104C93326A0104200F9491A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9104C93E26A0107B00F9491A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9104C94926A010A600F9491A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9104C95426A0272400F9491A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		910F712A265178F300120BE2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1331,6 +1381,16 @@
 		89C29ED125FE6A69006049ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "110. 平衡二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FDE492264AF17E00143B37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9104C92A26A0101200F9491A /* 144. 二叉树的前序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "144. 二叉树的前序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9104C92C26A0101300F9491A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9104C93526A0104200F9491A /* 94. 二叉树的中序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "94. 二叉树的中序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9104C93726A0104200F9491A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9104C94026A0107B00F9491A /* 145. 二叉树的后序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "145. 二叉树的后序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9104C94226A0107B00F9491A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9104C94B26A010A600F9491A /* 102. 二叉树的层序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "102. 二叉树的层序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9104C94D26A010A600F9491A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9104C95626A0272400F9491A /* 101. 对称二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "101. 对称二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9104C95826A0272400F9491A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		910F712C265178F300120BE2 /* 234. 回文链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "234. 回文链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		910F712E265178F300120BE2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		910F713726517F2B00120BE2 /* 206. 反转链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "206. 反转链表"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2086,6 +2146,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9104C92726A0101200F9491A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C93226A0104200F9491A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C93D26A0107B00F9491A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C94826A010A600F9491A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C95326A0272400F9491A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		910F7129265178F300120BE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2225,17 +2320,26 @@
 				40C2F9AF25E89CE80020DFA7 /* 70.ClimbStairs */,
 				40C2F9BA25E89D3B0020DFA7 /* 83.DeleteDuplicates */,
 				40C2F9C525E89D750020DFA7 /* 88.Merge */,
+				9104C93626A0104200F9491A /* 94. 二叉树的中序遍历 */,
 				40B0A82325E8E5E1007EFF10 /* 94.InorderTraversal */,
 				40C2F9DB25E89DFC0020DFA7 /* 100.IsSameTree */,
+				9104C95726A0272400F9491A /* 101. 对称二叉树 */,
 				40C2F9E625E89F0A0020DFA7 /* 101.IsSymmetric */,
+				9104C94C26A010A600F9491A /* 102. 二叉树的层序遍历 */,
 				40B0A7F725E8D782007EFF10 /* 104.MaxDepth */,
 				4081933025E909800020C84C /* 108.SortedArrayToBST */,
+				89FDE491264AF17E00143B37 /* 110. 平衡二叉树 */,
+				91EB5ED52664D76B00C0A431 /* 111. 二叉树的最小深度 */,
+				91EB5EE02664E36C00C0A431 /* 112. 路径总和 */,
 				4081935C25E90AB60020C84C /* 118.Generate */,
+				91EB5EEB2664F00900C0A431 /* 119. 杨辉三角 II */,
 				40C2FA2825E8A2E10020DFA7 /* 121.MaxProfit */,
 				40F9DF5125E50DC400C6CA75 /* 122.MaxProfit */,
 				40F9DF5C25E5142500C6CA75 /* 125.IsPalindrome */,
 				40C2F96225E8998E0020DFA7 /* 136.SingleNumber */,
 				40C2FA3325E8A3BA0020DFA7 /* 141.HasCycle */,
+				9104C92B26A0101300F9491A /* 144. 二叉树的前序遍历 */,
+				9104C94126A0107B00F9491A /* 145. 二叉树的后序遍历 */,
 				40943E2726032CFC007EE537 /* 152. 乘积最大子数组 */,
 				40B0A80225E8DCD0007EFF10 /* 152.MaxProduct */,
 				40C2FA3F25E8AB920020DFA7 /* 155.MinStack */,
@@ -2247,9 +2351,11 @@
 				4081933B25E909B80020C84C /* 191.HammingWeight */,
 				403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */,
 				40EC71C925ECF5CE0012DB13 /* 202.IsHappy */,
+				910F713826517F2B00120BE2 /* 206. 反转链表 */,
 				40B0A84425E8F65B007EFF10 /* 206.ReverseList */,
 				403A1BB62611D21F0084A6A8 /* 213. 打家劫舍 II */,
 				40B0A83925E8EFD2007EFF10 /* 226.InvertTree */,
+				910F712D265178F300120BE2 /* 234. 回文链表 */,
 				4081932525E9093C0020C84C /* 237.DeleteNode */,
 				89C29ED025FE6A69006049ED /* 300. 最长递增子序列 */,
 				40DA37DE261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */,
@@ -2257,6 +2363,7 @@
 				40DA37F4261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */,
 				40B0A7E125E8C883007EFF10 /* 344.ReverseString */,
 				40F3752C25F0D06700298716 /* 345.ReverseVowels */,
+				40E3565D263816A800A90322 /* 346. 数据流中的移动平均值 */,
 				40373E652602F68400C5959D /* 354. 俄罗斯套娃信封问题 */,
 				40F3753925F0DEE000298716 /* 383.CanConstruct */,
 				40F3754425F0E78700298716 /* 387.FirstUniqChar */,
@@ -2271,6 +2378,7 @@
 				40F52446261FF76A00A2F26E /* 560. 和为K的子数组 */,
 				40DA115025F89E4600986350 /* 606.Tree2str */,
 				40B0A80D25E8E35C007EFF10 /* 617.MergeTrees */,
+				40E35668263816DA00A90322 /* 622. 设计循环队列 */,
 				4081937225E90B1F0020C84C /* 665.CheckPossibility */,
 				40AADF2F2602057300BF5287 /* 673. 最长递增子序列的个数 */,
 				40DA117125F8B1EC00986350 /* 680.ValidPalindrome */,
@@ -2298,18 +2406,10 @@
 				403FBBCA26244E290089DE12 /* 排序.冒泡排序 */,
 				40FDEA212626DC1000772F8A /* 排序.希尔排序 */,
 				403FBBD52624545D0089DE12 /* 排序.选择排序 */,
-				40F3753225F0D85900298716 /* 算法归纳 */,
 				40D373002629867500659251 /* 实现.队列 */,
-				40E3565D263816A800A90322 /* 346. 数据流中的移动平均值 */,
-				40E35668263816DA00A90322 /* 622. 设计循环队列 */,
 				40E03581263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358C263AC5EE0042A1AB /* 实现.栈 */,
-				89FDE491264AF17E00143B37 /* 110. 平衡二叉树 */,
-				910F712D265178F300120BE2 /* 234. 回文链表 */,
-				910F713826517F2B00120BE2 /* 206. 反转链表 */,
-				91EB5ED52664D76B00C0A431 /* 111. 二叉树的最小深度 */,
-				91EB5EE02664E36C00C0A431 /* 112. 路径总和 */,
-				91EB5EEB2664F00900C0A431 /* 119. 杨辉三角 II */,
+				40F3753225F0D85900298716 /* 算法归纳 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -2429,6 +2529,11 @@
 				91EB5ED42664D76B00C0A431 /* 111. 二叉树的最小深度 */,
 				91EB5EDF2664E36C00C0A431 /* 112. 路径总和 */,
 				91EB5EEA2664F00900C0A431 /* 119. 杨辉三角 II */,
+				9104C92A26A0101200F9491A /* 144. 二叉树的前序遍历 */,
+				9104C93526A0104200F9491A /* 94. 二叉树的中序遍历 */,
+				9104C94026A0107B00F9491A /* 145. 二叉树的后序遍历 */,
+				9104C94B26A010A600F9491A /* 102. 二叉树的层序遍历 */,
+				9104C95626A0272400F9491A /* 101. 对称二叉树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3219,6 +3324,46 @@
 				89FDE492264AF17E00143B37 /* main.swift */,
 			);
 			path = "110. 平衡二叉树";
+			sourceTree = "<group>";
+		};
+		9104C92B26A0101300F9491A /* 144. 二叉树的前序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				9104C92C26A0101300F9491A /* main.swift */,
+			);
+			path = "144. 二叉树的前序遍历";
+			sourceTree = "<group>";
+		};
+		9104C93626A0104200F9491A /* 94. 二叉树的中序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				9104C93726A0104200F9491A /* main.swift */,
+			);
+			path = "94. 二叉树的中序遍历";
+			sourceTree = "<group>";
+		};
+		9104C94126A0107B00F9491A /* 145. 二叉树的后序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				9104C94226A0107B00F9491A /* main.swift */,
+			);
+			path = "145. 二叉树的后序遍历";
+			sourceTree = "<group>";
+		};
+		9104C94C26A010A600F9491A /* 102. 二叉树的层序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				9104C94D26A010A600F9491A /* main.swift */,
+			);
+			path = "102. 二叉树的层序遍历";
+			sourceTree = "<group>";
+		};
+		9104C95726A0272400F9491A /* 101. 对称二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				9104C95826A0272400F9491A /* main.swift */,
+			);
+			path = "101. 对称二叉树";
 			sourceTree = "<group>";
 		};
 		910F712D265178F300120BE2 /* 234. 回文链表 */ = {
@@ -5077,6 +5222,91 @@
 			productReference = 89FDE490264AF17E00143B37 /* 110. 平衡二叉树 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9104C92926A0101200F9491A /* 144. 二叉树的前序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9104C93026A0101300F9491A /* Build configuration list for PBXNativeTarget "144. 二叉树的前序遍历" */;
+			buildPhases = (
+				9104C92626A0101200F9491A /* Sources */,
+				9104C92726A0101200F9491A /* Frameworks */,
+				9104C92826A0101200F9491A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "144. 二叉树的前序遍历";
+			productName = "144. 二叉树的前序遍历";
+			productReference = 9104C92A26A0101200F9491A /* 144. 二叉树的前序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9104C93426A0104200F9491A /* 94. 二叉树的中序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9104C93926A0104200F9491A /* Build configuration list for PBXNativeTarget "94. 二叉树的中序遍历" */;
+			buildPhases = (
+				9104C93126A0104200F9491A /* Sources */,
+				9104C93226A0104200F9491A /* Frameworks */,
+				9104C93326A0104200F9491A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "94. 二叉树的中序遍历";
+			productName = "94. 二叉树的中序遍历";
+			productReference = 9104C93526A0104200F9491A /* 94. 二叉树的中序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9104C93F26A0107B00F9491A /* 145. 二叉树的后序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9104C94426A0107B00F9491A /* Build configuration list for PBXNativeTarget "145. 二叉树的后序遍历" */;
+			buildPhases = (
+				9104C93C26A0107B00F9491A /* Sources */,
+				9104C93D26A0107B00F9491A /* Frameworks */,
+				9104C93E26A0107B00F9491A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "145. 二叉树的后序遍历";
+			productName = "145. 二叉树的后序遍历";
+			productReference = 9104C94026A0107B00F9491A /* 145. 二叉树的后序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9104C94A26A010A600F9491A /* 102. 二叉树的层序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9104C94F26A010A600F9491A /* Build configuration list for PBXNativeTarget "102. 二叉树的层序遍历" */;
+			buildPhases = (
+				9104C94726A010A600F9491A /* Sources */,
+				9104C94826A010A600F9491A /* Frameworks */,
+				9104C94926A010A600F9491A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "102. 二叉树的层序遍历";
+			productName = "102. 二叉树的层序遍历";
+			productReference = 9104C94B26A010A600F9491A /* 102. 二叉树的层序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9104C95526A0272400F9491A /* 101. 对称二叉树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9104C95A26A0272400F9491A /* Build configuration list for PBXNativeTarget "101. 对称二叉树" */;
+			buildPhases = (
+				9104C95226A0272400F9491A /* Sources */,
+				9104C95326A0272400F9491A /* Frameworks */,
+				9104C95426A0272400F9491A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "101. 对称二叉树";
+			productName = "101. 对称二叉树";
+			productReference = 9104C95626A0272400F9491A /* 101. 对称二叉树 */;
+			productType = "com.apple.product-type.tool";
+		};
 		910F712B265178F300120BE2 /* 234. 回文链表 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 910F7132265178F300120BE2 /* Build configuration list for PBXNativeTarget "234. 回文链表" */;
@@ -5490,6 +5720,21 @@
 					89FDE48F264AF17E00143B37 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					9104C92926A0101200F9491A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9104C93426A0104200F9491A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9104C93F26A0107B00F9491A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9104C94A26A010A600F9491A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9104C95526A0272400F9491A = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					910F712B265178F300120BE2 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -5631,6 +5876,11 @@
 				91EB5ED32664D76B00C0A431 /* 111. 二叉树的最小深度 */,
 				91EB5EDE2664E36C00C0A431 /* 112. 路径总和 */,
 				91EB5EE92664F00900C0A431 /* 119. 杨辉三角 II */,
+				9104C92926A0101200F9491A /* 144. 二叉树的前序遍历 */,
+				9104C93426A0104200F9491A /* 94. 二叉树的中序遍历 */,
+				9104C93F26A0107B00F9491A /* 145. 二叉树的后序遍历 */,
+				9104C94A26A010A600F9491A /* 102. 二叉树的层序遍历 */,
+				9104C95526A0272400F9491A /* 101. 对称二叉树 */,
 			);
 		};
 /* End PBXProject section */
@@ -6491,6 +6741,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				89FDE493264AF17E00143B37 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C92626A0101200F9491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9104C92D26A0101300F9491A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C93126A0104200F9491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9104C93826A0104200F9491A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C93C26A0107B00F9491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9104C94326A0107B00F9491A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C94726A010A600F9491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9104C94E26A010A600F9491A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9104C95226A0272400F9491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9104C95926A0272400F9491A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9278,6 +9568,106 @@
 			};
 			name = Release;
 		};
+		9104C92E26A0101300F9491A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9104C92F26A0101300F9491A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9104C93A26A0104200F9491A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9104C93B26A0104200F9491A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9104C94526A0107B00F9491A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9104C94626A0107B00F9491A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9104C95026A010A600F9491A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9104C95126A010A600F9491A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9104C95B26A0272400F9491A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9104C95C26A0272400F9491A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		910F7130265178F300120BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10356,6 +10746,51 @@
 			buildConfigurations = (
 				89FDE495264AF17E00143B37 /* Debug */,
 				89FDE496264AF17E00143B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9104C93026A0101300F9491A /* Build configuration list for PBXNativeTarget "144. 二叉树的前序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9104C92E26A0101300F9491A /* Debug */,
+				9104C92F26A0101300F9491A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9104C93926A0104200F9491A /* Build configuration list for PBXNativeTarget "94. 二叉树的中序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9104C93A26A0104200F9491A /* Debug */,
+				9104C93B26A0104200F9491A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9104C94426A0107B00F9491A /* Build configuration list for PBXNativeTarget "145. 二叉树的后序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9104C94526A0107B00F9491A /* Debug */,
+				9104C94626A0107B00F9491A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9104C94F26A010A600F9491A /* Build configuration list for PBXNativeTarget "102. 二叉树的层序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9104C95026A010A600F9491A /* Debug */,
+				9104C95126A010A600F9491A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9104C95A26A0272400F9491A /* Build configuration list for PBXNativeTarget "101. 对称二叉树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9104C95B26A0272400F9491A /* Debug */,
+				9104C95C26A0272400F9491A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
