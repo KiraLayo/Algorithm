@@ -120,6 +120,7 @@
 		9104C95926A0272400F9491A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104C95826A0272400F9491A /* main.swift */; };
 		910F712F265178F300120BE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F712E265178F300120BE2 /* main.swift */; };
 		910F713A26517F2B00120BE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F713926517F2B00120BE2 /* main.swift */; };
+		91A8DF8C26A1733200F18096 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A8DF8B26A1733200F18096 /* main.swift */; };
 		91EB5ED72664D76B00C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5ED62664D76B00C0A431 /* main.swift */; };
 		91EB5EE22664E36C00C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5EE12664E36C00C0A431 /* main.swift */; };
 		91EB5EED2664F00900C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5EEC2664F00900C0A431 /* main.swift */; };
@@ -1134,6 +1135,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		91A8DF8726A1733200F18096 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		91EB5ED22664D76B00C0A431 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1395,6 +1405,8 @@
 		910F712E265178F300120BE2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		910F713726517F2B00120BE2 /* 206. 反转链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "206. 反转链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		910F713926517F2B00120BE2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91A8DF8926A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "106. 从中序与后序遍历序列构造二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A8DF8B26A1733200F18096 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91EB5ED42664D76B00C0A431 /* 111. 二叉树的最小深度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "111. 二叉树的最小深度"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB5ED62664D76B00C0A431 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91EB5EDF2664E36C00C0A431 /* 112. 路径总和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "112. 路径总和"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2195,6 +2207,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91A8DF8626A1733200F18096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91EB5ED12664D76B00C0A431 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2410,6 +2429,7 @@
 				40E03581263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358C263AC5EE0042A1AB /* 实现.栈 */,
 				40F3753225F0D85900298716 /* 算法归纳 */,
+				91A8DF8A26A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -2534,6 +2554,7 @@
 				9104C94026A0107B00F9491A /* 145. 二叉树的后序遍历 */,
 				9104C94B26A010A600F9491A /* 102. 二叉树的层序遍历 */,
 				9104C95626A0272400F9491A /* 101. 对称二叉树 */,
+				91A8DF8926A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3380,6 +3401,14 @@
 				910F713926517F2B00120BE2 /* main.swift */,
 			);
 			path = "206. 反转链表";
+			sourceTree = "<group>";
+		};
+		91A8DF8A26A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				91A8DF8B26A1733200F18096 /* main.swift */,
+			);
+			path = "106. 从中序与后序遍历序列构造二叉树";
 			sourceTree = "<group>";
 		};
 		91EB5ED52664D76B00C0A431 /* 111. 二叉树的最小深度 */ = {
@@ -5341,6 +5370,23 @@
 			productReference = 910F713726517F2B00120BE2 /* 206. 反转链表 */;
 			productType = "com.apple.product-type.tool";
 		};
+		91A8DF8826A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A8DF8F26A1733300F18096 /* Build configuration list for PBXNativeTarget "106. 从中序与后序遍历序列构造二叉树" */;
+			buildPhases = (
+				91A8DF8526A1733200F18096 /* Sources */,
+				91A8DF8626A1733200F18096 /* Frameworks */,
+				91A8DF8726A1733200F18096 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "106. 从中序与后序遍历序列构造二叉树";
+			productName = "106. 从中序与后序遍历序列构造二叉树";
+			productReference = 91A8DF8926A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */;
+			productType = "com.apple.product-type.tool";
+		};
 		91EB5ED32664D76B00C0A431 /* 111. 二叉树的最小深度 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91EB5EDA2664D76B00C0A431 /* Build configuration list for PBXNativeTarget "111. 二叉树的最小深度" */;
@@ -5741,6 +5787,9 @@
 					910F713626517F2B00120BE2 = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					91A8DF8826A1733200F18096 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					91EB5ED32664D76B00C0A431 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -5881,6 +5930,7 @@
 				9104C93F26A0107B00F9491A /* 145. 二叉树的后序遍历 */,
 				9104C94A26A010A600F9491A /* 102. 二叉树的层序遍历 */,
 				9104C95526A0272400F9491A /* 101. 对称二叉树 */,
+				91A8DF8826A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */,
 			);
 		};
 /* End PBXProject section */
@@ -6797,6 +6847,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				910F713A26517F2B00120BE2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A8DF8526A1733200F18096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A8DF8C26A1733200F18096 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9716,6 +9774,26 @@
 			};
 			name = Release;
 		};
+		91A8DF8D26A1733200F18096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91A8DF8E26A1733200F18096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		91EB5ED82664D76B00C0A431 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10809,6 +10887,15 @@
 			buildConfigurations = (
 				910F713C26517F2B00120BE2 /* Debug */,
 				910F713D26517F2B00120BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A8DF8F26A1733300F18096 /* Build configuration list for PBXNativeTarget "106. 从中序与后序遍历序列构造二叉树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A8DF8D26A1733200F18096 /* Debug */,
+				91A8DF8E26A1733200F18096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

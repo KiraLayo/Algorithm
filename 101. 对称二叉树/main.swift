@@ -55,6 +55,19 @@ import Foundation
  */
 class Solution {
     func isSymmetric(_ root: TreeNode?) -> Bool {
-        
+        guard root != nil else {
+            return true;
+        }
+        return symmetric(root!.left, root!.right);
+    }
+
+    func symmetric(_ a: TreeNode?, _ b: TreeNode?) -> Bool {
+        if a == nil && b == nil {
+            return true;
+        }
+        if a == nil || b == nil {
+            return false;
+        }
+        return (a!.val == b!.val) && (symmetric(a!.left, b!.right) && symmetric(a!.right, b!.left));
     }
 }
