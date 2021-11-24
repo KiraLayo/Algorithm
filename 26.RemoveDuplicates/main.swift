@@ -38,16 +38,16 @@ class Solution {
         if (nums.count < 2) {
             return nums.count;
         }
-        var p1Index = 0;
-        var p2Index = 0;
-        while p2Index < nums.count {
-            if (nums[p1Index] != nums[p2Index]) {
-                p1Index += 1;
-                nums[p1Index] = nums[p2Index];
+        var index = 0;
+        
+        nums.forEach {
+            if $0 != nums[index]  {
+                index += 1;
+                nums[index] = $0;
             }
-            p2Index += 1;
         }
-        return p1Index + 1;
+        
+        return index + 1;
     }
 }
 
