@@ -28,19 +28,13 @@ import Foundation
 //[1,3, 0, 0, 12]
 class Solution {
     func moveZeroes(_ nums: inout [Int]) {
-        guard nums.count > 1 else {
-            return
-        }
-        
-        var p1 = 0;
-        for p2 in 0..<nums.count {
-            if nums[p2] != 0 {
-                if p2 > p1 {
-                    nums[p1] = nums[p2]
-                    nums[p2] = 0;
-                }
-                p1 += 1;
+        var p1 = 0, p2 = 0;
+        while p1 < nums.count {
+            if nums[p1] != 0 {
+                nums.swapAt(p1, p2);
+                p2 += 1;
             }
+            p1 += 1;
         }
     }
 }

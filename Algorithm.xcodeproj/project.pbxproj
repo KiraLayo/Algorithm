@@ -127,9 +127,15 @@
 		9177FED12770E21A0095FC2F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177FED02770E21A0095FC2F /* main.swift */; };
 		91826A6427592426007EDCB1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91826A6327592426007EDCB1 /* main.swift */; };
 		91A8DF8C26A1733200F18096 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A8DF8B26A1733200F18096 /* main.swift */; };
+		91AF21562788129400B5C9F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF21552788129400B5C9F5 /* main.swift */; };
+		91AF216127882C3A00B5C9F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF216027882C3A00B5C9F5 /* main.swift */; };
+		91CFDB822791422E00D45AD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CFDB812791422E00D45AD6 /* main.swift */; };
+		91DD83AC278FEBC700C8FB20 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD83AB278FEBC700C8FB20 /* main.swift */; };
 		91E049ED276799D4000A5254 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E049EC276799D4000A5254 /* main.swift */; };
 		91E049F827679F18000A5254 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E049F727679F18000A5254 /* main.swift */; };
 		91E04A032767A24E000A5254 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E04A022767A24E000A5254 /* main.swift */; };
+		91E425F62784180500617ED5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E425F52784180500617ED5 /* main.swift */; };
+		91E4260127841CCD00617ED5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E4260027841CCD00617ED5 /* main.swift */; };
 		91EB5ED72664D76B00C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5ED62664D76B00C0A431 /* main.swift */; };
 		91EB5EE22664E36C00C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5EE12664E36C00C0A431 /* main.swift */; };
 		91EB5EED2664F00900C0A431 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5EEC2664F00900C0A431 /* main.swift */; };
@@ -1207,6 +1213,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		91AF21512788129400B5C9F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		91AF215C27882C3A00B5C9F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		91CFDB7D2791422E00D45AD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		91DD83A7278FEBC700C8FB20 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		91E049E8276799D4000A5254 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1226,6 +1268,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		91E049FE2767A24E000A5254 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		91E425F12784180500617ED5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		91E425FC27841CCD00617ED5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1509,12 +1569,24 @@
 		91826A6327592426007EDCB1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91A8DF8926A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "106. 从中序与后序遍历序列构造二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A8DF8B26A1733200F18096 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91AF21532788129400B5C9F5 /* 876. 链表的中间结点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "876. 链表的中间结点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AF21552788129400B5C9F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91AF215E27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. 删除链表的倒数第 N 个结点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AF216027882C3A00B5C9F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91CFDB7F2791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "170. 两数之和 III - 数据结构设计"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CFDB812791422E00D45AD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91DD83A9278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "747. 至少是其他数字两倍的最大数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DD83AB278FEBC700C8FB20 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91E049EA276799D4000A5254 /* 704. 二分查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "704. 二分查找"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E049EC276799D4000A5254 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91E049F527679F18000A5254 /* 278. 第一个错误的版本 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "278. 第一个错误的版本"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E049F727679F18000A5254 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91E04A002767A24E000A5254 /* 35. 搜索插入位置 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. 搜索插入位置"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E04A022767A24E000A5254 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91E425F32784180500617ED5 /* 217. 存在重复元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "217. 存在重复元素"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E425F52784180500617ED5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		91E425FE27841CCD00617ED5 /* 136. 只出现一次的数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "136. 只出现一次的数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4260027841CCD00617ED5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91EB5ED42664D76B00C0A431 /* 111. 二叉树的最小深度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "111. 二叉树的最小深度"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB5ED62664D76B00C0A431 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91EB5EDF2664E36C00C0A431 /* 112. 路径总和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "112. 路径总和"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2364,6 +2436,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91AF21502788129400B5C9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF215B27882C3A00B5C9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CFDB7C2791422E00D45AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DD83A6278FEBC700C8FB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91E049E7276799D4000A5254 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2379,6 +2479,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		91E049FD2767A24E000A5254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E425F02784180500617ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E425FB27841CCD00617ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2498,6 +2612,7 @@
 				408A96AF25EF2D00001702BB /* 27.RemoveElement */,
 				404E6F6625E4BBE200368798 /* 28.StrStr */,
 				40B0A82E25E8E667007EFF10 /* 31.NextPermutation */,
+				91E04A012767A24E000A5254 /* 35. 搜索插入位置 */,
 				408A96BA25EF32E4001702BB /* 35.SearchInsert */,
 				40F9DF3B25E4F43800C6CA75 /* 38.CountAndSay */,
 				40EC719D25EC9C9C0012DB13 /* 50.MyPow */,
@@ -2517,6 +2632,7 @@
 				40C2F9E625E89F0A0020DFA7 /* 101.IsSymmetric */,
 				9104C94C26A010A600F9491A /* 102. 二叉树的层序遍历 */,
 				40B0A7F725E8D782007EFF10 /* 104.MaxDepth */,
+				91A8DF8A26A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */,
 				4081933025E909800020C84C /* 108.SortedArrayToBST */,
 				89FDE491264AF17E00143B37 /* 110. 平衡二叉树 */,
 				91EB5ED52664D76B00C0A431 /* 111. 二叉树的最小深度 */,
@@ -2534,9 +2650,11 @@
 				40B0A80225E8DCD0007EFF10 /* 152.MaxProduct */,
 				40C2FA3F25E8AB920020DFA7 /* 155.MinStack */,
 				4081934625E90A2D0020C84C /* 160.GetIntersectionNode */,
+				916A99682778C30F008B67CE /* 167. 两数之和 II - 输入有序数组 */,
 				4081936725E90AF00020C84C /* 169.MajorityElement */,
 				40EC71A825ECCF1B0012DB13 /* 171.TitleToNumber */,
 				40EC71B325ECD48D0012DB13 /* 172.TrailingZeroes */,
+				91826A6227592426007EDCB1 /* 189. 轮转数组 */,
 				40EC71BE25ECEBF00012DB13 /* 190.ReverseBits */,
 				4081933B25E909B80020C84C /* 191.HammingWeight */,
 				403A1BAB2611CDCE0084A6A8 /* 198. 打家劫舍 */,
@@ -2547,10 +2665,13 @@
 				40B0A83925E8EFD2007EFF10 /* 226.InvertTree */,
 				910F712D265178F300120BE2 /* 234. 回文链表 */,
 				4081932525E9093C0020C84C /* 237.DeleteNode */,
+				91E049F627679F18000A5254 /* 278. 第一个错误的版本 */,
+				9177FECF2770E21A0095FC2F /* 283. 移动零 */,
 				89C29ED025FE6A69006049ED /* 300. 最长递增子序列 */,
 				40DA37DE261C0E8A00FD82A6 /* 303. 区域和检索 - 数组不可变 */,
 				40DA37E9261C341800FD82A6 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				40DA37F4261C40D200FD82A6 /* 325. 和等于 k 的最长子数组长度 */,
+				916A99732778C7A1008B67CE /* 344. 反转字符串 */,
 				40B0A7E125E8C883007EFF10 /* 344.ReverseString */,
 				40F3752C25F0D06700298716 /* 345.ReverseVowels */,
 				40E3565D263816A800A90322 /* 346. 数据流中的移动平均值 */,
@@ -2564,6 +2685,7 @@
 				405F871425F7804300B6CA2D /* 520.DetectCapitalUse */,
 				40F5245C262037E500A2F26E /* 523. 连续的子数组和 */,
 				40E18228261EE41200BD99B3 /* 525. 连续数组 */,
+				916A997E2778C8E5008B67CE /* 557. 反转字符串中的单词 III */,
 				40DA113A25F86E6E00986350 /* 557.ReverseWords */,
 				40F52446261FF76A00A2F26E /* 560. 和为K的子数组 */,
 				40DA115025F89E4600986350 /* 606.Tree2str */,
@@ -2572,6 +2694,7 @@
 				4081937225E90B1F0020C84C /* 665.CheckPossibility */,
 				40AADF2F2602057300BF5287 /* 673. 最长递增子序列的个数 */,
 				40DA117125F8B1EC00986350 /* 680.ValidPalindrome */,
+				91E049EB276799D4000A5254 /* 704. 二分查找 */,
 				40DA114525F87BC300986350 /* 709.ToLowerCase */,
 				40C2F9D025E89DB70020DFA7 /* 739.DailyTemperatures */,
 				403A1BC12611E6C40084A6A8 /* 740. 删除与获得点数 */,
@@ -2580,6 +2703,7 @@
 				40B4042825E7BC710038D4AB /* 867.Transpose */,
 				4046BE8626147E280065A523 /* 873. 最长的斐波那契子序列的长度 */,
 				40943E32260331BB007EE537 /* 918. 环形子数组的最大和 */,
+				9177FEC42770DA090095FC2F /* 977. 有序数组的平方 */,
 				402240B82615D099005D2373 /* 1027. 最长等差数列 */,
 				404E6F5025E49DF600368798 /* 1052.MaxSatisfied */,
 				40DA115B25F8A65300986350 /* 1165.CalculateTime */,
@@ -2600,16 +2724,12 @@
 				40E03581263AA6590042A1AB /* 实现.广度优先BFS */,
 				40E0358C263AC5EE0042A1AB /* 实现.栈 */,
 				40F3753225F0D85900298716 /* 算法归纳 */,
-				91A8DF8A26A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */,
-				91826A6227592426007EDCB1 /* 189. 轮转数组 */,
-				91E049EB276799D4000A5254 /* 704. 二分查找 */,
-				91E049F627679F18000A5254 /* 278. 第一个错误的版本 */,
-				91E04A012767A24E000A5254 /* 35. 搜索插入位置 */,
-				9177FEC42770DA090095FC2F /* 977. 有序数组的平方 */,
-				9177FECF2770E21A0095FC2F /* 283. 移动零 */,
-				916A99682778C30F008B67CE /* 167. 两数之和 II - 输入有序数组 */,
-				916A99732778C7A1008B67CE /* 344. 反转字符串 */,
-				916A997E2778C8E5008B67CE /* 557. 反转字符串中的单词 III */,
+				91E425F42784180500617ED5 /* 217. 存在重复元素 */,
+				91E425FF27841CCD00617ED5 /* 136. 只出现一次的数字 */,
+				91AF21542788129400B5C9F5 /* 876. 链表的中间结点 */,
+				91AF215F27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */,
+				91DD83AA278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */,
+				91CFDB802791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */,
 				404817EC25E3813D0077B626 /* Products */,
 				40B403E625E7AAF20038D4AB /* ShareModule */,
 			);
@@ -2744,6 +2864,12 @@
 				916A99672778C30F008B67CE /* 167. 两数之和 II - 输入有序数组 */,
 				916A99722778C7A1008B67CE /* 344. 反转字符串 */,
 				916A997D2778C8E5008B67CE /* 557. 反转字符串中的单词 III */,
+				91E425F32784180500617ED5 /* 217. 存在重复元素 */,
+				91E425FE27841CCD00617ED5 /* 136. 只出现一次的数字 */,
+				91AF21532788129400B5C9F5 /* 876. 链表的中间结点 */,
+				91AF215E27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */,
+				91DD83A9278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */,
+				91CFDB7F2791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3648,6 +3774,38 @@
 			path = "106. 从中序与后序遍历序列构造二叉树";
 			sourceTree = "<group>";
 		};
+		91AF21542788129400B5C9F5 /* 876. 链表的中间结点 */ = {
+			isa = PBXGroup;
+			children = (
+				91AF21552788129400B5C9F5 /* main.swift */,
+			);
+			path = "876. 链表的中间结点";
+			sourceTree = "<group>";
+		};
+		91AF215F27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */ = {
+			isa = PBXGroup;
+			children = (
+				91AF216027882C3A00B5C9F5 /* main.swift */,
+			);
+			path = "19. 删除链表的倒数第 N 个结点";
+			sourceTree = "<group>";
+		};
+		91CFDB802791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */ = {
+			isa = PBXGroup;
+			children = (
+				91CFDB812791422E00D45AD6 /* main.swift */,
+			);
+			path = "170. 两数之和 III - 数据结构设计";
+			sourceTree = "<group>";
+		};
+		91DD83AA278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */ = {
+			isa = PBXGroup;
+			children = (
+				91DD83AB278FEBC700C8FB20 /* main.swift */,
+			);
+			path = "747. 至少是其他数字两倍的最大数";
+			sourceTree = "<group>";
+		};
 		91E049EB276799D4000A5254 /* 704. 二分查找 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3670,6 +3828,22 @@
 				91E04A022767A24E000A5254 /* main.swift */,
 			);
 			path = "35. 搜索插入位置";
+			sourceTree = "<group>";
+		};
+		91E425F42784180500617ED5 /* 217. 存在重复元素 */ = {
+			isa = PBXGroup;
+			children = (
+				91E425F52784180500617ED5 /* main.swift */,
+			);
+			path = "217. 存在重复元素";
+			sourceTree = "<group>";
+		};
+		91E425FF27841CCD00617ED5 /* 136. 只出现一次的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				91E4260027841CCD00617ED5 /* main.swift */,
+			);
+			path = "136. 只出现一次的数字";
 			sourceTree = "<group>";
 		};
 		91EB5ED52664D76B00C0A431 /* 111. 二叉树的最小深度 */ = {
@@ -5750,6 +5924,74 @@
 			productReference = 91A8DF8926A1733200F18096 /* 106. 从中序与后序遍历序列构造二叉树 */;
 			productType = "com.apple.product-type.tool";
 		};
+		91AF21522788129400B5C9F5 /* 876. 链表的中间结点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AF21592788129400B5C9F5 /* Build configuration list for PBXNativeTarget "876. 链表的中间结点" */;
+			buildPhases = (
+				91AF214F2788129400B5C9F5 /* Sources */,
+				91AF21502788129400B5C9F5 /* Frameworks */,
+				91AF21512788129400B5C9F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "876. 链表的中间结点";
+			productName = "876. 链表的中间结点";
+			productReference = 91AF21532788129400B5C9F5 /* 876. 链表的中间结点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		91AF215D27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AF216427882C3A00B5C9F5 /* Build configuration list for PBXNativeTarget "19. 删除链表的倒数第 N 个结点" */;
+			buildPhases = (
+				91AF215A27882C3A00B5C9F5 /* Sources */,
+				91AF215B27882C3A00B5C9F5 /* Frameworks */,
+				91AF215C27882C3A00B5C9F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19. 删除链表的倒数第 N 个结点";
+			productName = "19. 删除链表的倒数第 N 个结点";
+			productReference = 91AF215E27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		91CFDB7E2791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CFDB852791422E00D45AD6 /* Build configuration list for PBXNativeTarget "170. 两数之和 III - 数据结构设计" */;
+			buildPhases = (
+				91CFDB7B2791422E00D45AD6 /* Sources */,
+				91CFDB7C2791422E00D45AD6 /* Frameworks */,
+				91CFDB7D2791422E00D45AD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "170. 两数之和 III - 数据结构设计";
+			productName = "170. 两数之和 III - 数据结构设计";
+			productReference = 91CFDB7F2791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */;
+			productType = "com.apple.product-type.tool";
+		};
+		91DD83A8278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DD83AF278FEBC700C8FB20 /* Build configuration list for PBXNativeTarget "747. 至少是其他数字两倍的最大数" */;
+			buildPhases = (
+				91DD83A5278FEBC700C8FB20 /* Sources */,
+				91DD83A6278FEBC700C8FB20 /* Frameworks */,
+				91DD83A7278FEBC700C8FB20 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "747. 至少是其他数字两倍的最大数";
+			productName = "747. 至少是其他数字两倍的最大数";
+			productReference = 91DD83A9278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		91E049E9276799D4000A5254 /* 704. 二分查找 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91E049F0276799D4000A5254 /* Build configuration list for PBXNativeTarget "704. 二分查找" */;
@@ -5799,6 +6041,40 @@
 			name = "35. 搜索插入位置";
 			productName = "35. 搜索插入位置";
 			productReference = 91E04A002767A24E000A5254 /* 35. 搜索插入位置 */;
+			productType = "com.apple.product-type.tool";
+		};
+		91E425F22784180500617ED5 /* 217. 存在重复元素 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E425F72784180500617ED5 /* Build configuration list for PBXNativeTarget "217. 存在重复元素" */;
+			buildPhases = (
+				91E425EF2784180500617ED5 /* Sources */,
+				91E425F02784180500617ED5 /* Frameworks */,
+				91E425F12784180500617ED5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "217. 存在重复元素";
+			productName = "217. 存在重复元素";
+			productReference = 91E425F32784180500617ED5 /* 217. 存在重复元素 */;
+			productType = "com.apple.product-type.tool";
+		};
+		91E425FD27841CCD00617ED5 /* 136. 只出现一次的数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E4260227841CCD00617ED5 /* Build configuration list for PBXNativeTarget "136. 只出现一次的数字" */;
+			buildPhases = (
+				91E425FA27841CCD00617ED5 /* Sources */,
+				91E425FB27841CCD00617ED5 /* Frameworks */,
+				91E425FC27841CCD00617ED5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "136. 只出现一次的数字";
+			productName = "136. 只出现一次的数字";
+			productReference = 91E425FE27841CCD00617ED5 /* 136. 只出现一次的数字 */;
 			productType = "com.apple.product-type.tool";
 		};
 		91EB5ED32664D76B00C0A431 /* 111. 二叉树的最小深度 */ = {
@@ -6222,6 +6498,18 @@
 					91A8DF8826A1733200F18096 = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					91AF21522788129400B5C9F5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					91AF215D27882C3A00B5C9F5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					91CFDB7E2791422E00D45AD6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					91DD83A8278FEBC700C8FB20 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					91E049E9276799D4000A5254 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -6229,6 +6517,12 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					91E049FF2767A24E000A5254 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					91E425F22784180500617ED5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					91E425FD27841CCD00617ED5 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 					91EB5ED32664D76B00C0A431 = {
@@ -6381,6 +6675,12 @@
 				916A99662778C30F008B67CE /* 167. 两数之和 II - 输入有序数组 */,
 				916A99712778C7A1008B67CE /* 344. 反转字符串 */,
 				916A997C2778C8E5008B67CE /* 557. 反转字符串中的单词 III */,
+				91E425F22784180500617ED5 /* 217. 存在重复元素 */,
+				91E425FD27841CCD00617ED5 /* 136. 只出现一次的数字 */,
+				91AF21522788129400B5C9F5 /* 876. 链表的中间结点 */,
+				91AF215D27882C3A00B5C9F5 /* 19. 删除链表的倒数第 N 个结点 */,
+				91DD83A8278FEBC700C8FB20 /* 747. 至少是其他数字两倍的最大数 */,
+				91CFDB7E2791422E00D45AD6 /* 170. 两数之和 III - 数据结构设计 */,
 			);
 		};
 /* End PBXProject section */
@@ -7356,6 +7656,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91AF214F2788129400B5C9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AF21562788129400B5C9F5 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF215A27882C3A00B5C9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AF216127882C3A00B5C9F5 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CFDB7B2791422E00D45AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CFDB822791422E00D45AD6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DD83A5278FEBC700C8FB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DD83AC278FEBC700C8FB20 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91E049E6276799D4000A5254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -7377,6 +7709,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E04A032767A24E000A5254 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E425EF2784180500617ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E425F62784180500617ED5 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E425FA27841CCD00617ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E4260127841CCD00617ED5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10460,6 +10808,102 @@
 			};
 			name = Release;
 		};
+		91AF21572788129400B5C9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91AF21582788129400B5C9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91AF216227882C3A00B5C9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91AF216327882C3A00B5C9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91CFDB832791422E00D45AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91CFDB842791422E00D45AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91DD83AD278FEBC700C8FB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91DD83AE278FEBC700C8FB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		91E049EE276799D4000A5254 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10521,6 +10965,54 @@
 			name = Debug;
 		};
 		91E04A062767A24E000A5254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91E425F82784180500617ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91E425F92784180500617ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91E4260327841CCD00617ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQ5ACCHXP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91E4260427841CCD00617ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -11692,6 +12184,42 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		91AF21592788129400B5C9F5 /* Build configuration list for PBXNativeTarget "876. 链表的中间结点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AF21572788129400B5C9F5 /* Debug */,
+				91AF21582788129400B5C9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AF216427882C3A00B5C9F5 /* Build configuration list for PBXNativeTarget "19. 删除链表的倒数第 N 个结点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AF216227882C3A00B5C9F5 /* Debug */,
+				91AF216327882C3A00B5C9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CFDB852791422E00D45AD6 /* Build configuration list for PBXNativeTarget "170. 两数之和 III - 数据结构设计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CFDB832791422E00D45AD6 /* Debug */,
+				91CFDB842791422E00D45AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DD83AF278FEBC700C8FB20 /* Build configuration list for PBXNativeTarget "747. 至少是其他数字两倍的最大数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DD83AD278FEBC700C8FB20 /* Debug */,
+				91DD83AE278FEBC700C8FB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		91E049F0276799D4000A5254 /* Build configuration list for PBXNativeTarget "704. 二分查找" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -11715,6 +12243,24 @@
 			buildConfigurations = (
 				91E04A052767A24E000A5254 /* Debug */,
 				91E04A062767A24E000A5254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E425F72784180500617ED5 /* Build configuration list for PBXNativeTarget "217. 存在重复元素" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E425F82784180500617ED5 /* Debug */,
+				91E425F92784180500617ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E4260227841CCD00617ED5 /* Build configuration list for PBXNativeTarget "136. 只出现一次的数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E4260327841CCD00617ED5 /* Debug */,
+				91E4260427841CCD00617ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
