@@ -44,7 +44,7 @@ import ShareModule
  *         self.right = right
  *     }
  * }
- */
+ */ 
 
 class Solution {
     func binaryTreePaths(_ root: TreeNode?) -> [String] {
