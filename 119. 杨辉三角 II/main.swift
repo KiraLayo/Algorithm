@@ -33,13 +33,17 @@
 //链接：https://leetcode-cn.com/problems/pascals-triangle-ii
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-import ShareModule
-
 class Solution {
     func getRow(_ rowIndex: Int) -> [Int] {
-        var rows:[Int] = [1];
-        for <#item#> in <#items#> {
-            <#code#>
+        let count = rowIndex + 1;
+        var res: [Int] = Array(repeating: 0, count: count);
+        res[0] = 1;
+        for i in 1 ..< count {
+            for j in stride(from: i, to: 0, by: -1) {
+                res[j] += res[j-1];
+            }
         }
+        
+        return res;
     }
 }
